@@ -152,6 +152,7 @@
             this.apply_btn.Style = MetroFramework.MetroColorStyle.Blue;
             this.apply_btn.TabIndex = 4;
             this.apply_btn.Text = "Apply";
+            this.apply_btn.Click += new System.EventHandler(this.apply_btn_Click);
             // 
             // metroLabel2
             // 
